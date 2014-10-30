@@ -1,0 +1,9 @@
+Feature: User tries to register to the web site
+
+  Scenario Outline: As a new user I want to register into web site
+    Given User stay on login page and wants to create new account
+    When  User go to register page
+    And
+    Then
+    Examples:
+      |Login |Password|ConfirmPassword|Phone| Email|ConfirmCheckBox|ErrorMessage|
