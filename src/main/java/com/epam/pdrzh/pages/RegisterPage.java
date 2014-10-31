@@ -40,4 +40,30 @@ public class RegisterPage extends BasePage {
         }
         return false;
     }
+
+
+    public void fillFormWithData(String login, String pass, String confPass,
+                                 String phone, String email, String checkBox) {
+        loginField.sendKeys(login);
+        passwordField.sendKeys(pass);
+        confirmPasswordField.sendKeys(confPass);
+        phoneField.sendKeys(phone);
+        emailField.sendKeys(email);
+        if(checkBox.equalsIgnoreCase("selected")){
+            agreeCheckBox.click();
+        }
+        submitBtn.click();
+    }
+
+    public boolean checkErrorPresent(String error) {
+
+        if(agreeCheckBox.isSelected()){
+           return driver.getPageSource().contains(error);
+        }
+        if(!agreeCheckBox.isSelected()){
+            driver.switchTo().alert().accept();
+            return true;
+        }
+        return false;
+    }
 }

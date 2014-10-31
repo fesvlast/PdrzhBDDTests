@@ -1,4 +1,130 @@
 -------------------------------------------------------------------------------
 Test set: com.epam.pdrzh.suites.RunTest
 -------------------------------------------------------------------------------
-Tests run: 36, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 51.967 sec
+Tests run: 76, Failures: 4, Errors: 4, Skipped: 0, Time elapsed: 119.478 sec <<< FAILURE!
+Then user should see error messages on register page: Email is required(| login | password | password | +342343242342 |  | selected | Email is required |)  Time elapsed: 0.009 sec  <<< ERROR!
+org.openqa.selenium.NoAlertPresentException: No alert is present (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2.14 seconds
+Build info: version: '2.43.1', revision: '5163bceef1bc36d43f3dc0b83c88998168a363a0', time: '2014-09-10 09:43:55'
+System info: host: 'Tim-ПК', ip: '10.6.25.164', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_45'
+Session ID: b73cdcc1-3434-410f-891d-545646803cc3
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, databaseEnabled=true, cssSelectorsEnabled=true, javascriptEnabled=true, acceptSslCerts=true, handlesAlerts=true, browserName=firefox, webStorageEnabled=true, nativeEvents=false, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=33.0.2}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:614)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.alert(RemoteWebDriver.java:899)
+	at com.epam.pdrzh.pages.RegisterPage.checkErrorPresent(RegisterPage.java:64)
+	at com.epam.pdrzh.behavior.register.RegisterNegativeCases.userShouldSeeErrorMessage(RegisterNegativeCases.java:34)
+	at ✽.Then user should see error messages on register page: Email is required(features.register\registerNewUserNegative.feature:7)
+
+| login | password | password | +342343242342 |  | selected | Email is required |  Time elapsed: 0.011 sec  <<< ERROR!
+org.openqa.selenium.NoAlertPresentException: No alert is present (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2.14 seconds
+Build info: version: '2.43.1', revision: '5163bceef1bc36d43f3dc0b83c88998168a363a0', time: '2014-09-10 09:43:55'
+System info: host: 'Tim-ПК', ip: '10.6.25.164', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_45'
+Session ID: b73cdcc1-3434-410f-891d-545646803cc3
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, databaseEnabled=true, cssSelectorsEnabled=true, javascriptEnabled=true, acceptSslCerts=true, handlesAlerts=true, browserName=firefox, webStorageEnabled=true, nativeEvents=false, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=33.0.2}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:614)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.alert(RemoteWebDriver.java:899)
+	at com.epam.pdrzh.pages.RegisterPage.checkErrorPresent(RegisterPage.java:64)
+	at com.epam.pdrzh.behavior.register.RegisterNegativeCases.userShouldSeeErrorMessage(RegisterNegativeCases.java:34)
+	at ✽.Then user should see error messages on register page: Email is required(features.register\registerNewUserNegative.feature:7)
+
+Then user should see error messages on register page: Modal dialog window(| login | password | password | +342343242342 | user@gmail.com | not_selected | Modal dialog window |)  Time elapsed: 0.002 sec  <<< ERROR!
+org.openqa.selenium.UnhandledAlertException: Modal dialog present: Please confirm license agreement
+Build info: version: '2.43.1', revision: '5163bceef1bc36d43f3dc0b83c88998168a363a0', time: '2014-09-10 09:43:55'
+System info: host: 'Tim-ПК', ip: '10.6.25.164', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_45'
+Session ID: b73cdcc1-3434-410f-891d-545646803cc3
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, databaseEnabled=true, cssSelectorsEnabled=true, javascriptEnabled=true, acceptSslCerts=true, handlesAlerts=true, browserName=firefox, webStorageEnabled=true, nativeEvents=false, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=33.0.2}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.createUnhandledAlertException(ErrorHandler.java:185)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:152)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:425)
+	at org.openqa.selenium.By$ByName.findElement(By.java:299)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:59)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:37)
+	at com.sun.proxy.$Proxy19.isSelected(Unknown Source)
+	at com.epam.pdrzh.pages.RegisterPage.checkErrorPresent(RegisterPage.java:60)
+	at com.epam.pdrzh.behavior.register.RegisterNegativeCases.userShouldSeeErrorMessage(RegisterNegativeCases.java:34)
+	at ✽.Then user should see error messages on register page: Modal dialog window(features.register\registerNewUserNegative.feature:7)
+
+| login | password | password | +342343242342 | user@gmail.com | not_selected | Modal dialog window |  Time elapsed: 0.003 sec  <<< ERROR!
+org.openqa.selenium.UnhandledAlertException: Modal dialog present: Please confirm license agreement
+Build info: version: '2.43.1', revision: '5163bceef1bc36d43f3dc0b83c88998168a363a0', time: '2014-09-10 09:43:55'
+System info: host: 'Tim-ПК', ip: '10.6.25.164', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_45'
+Session ID: b73cdcc1-3434-410f-891d-545646803cc3
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, databaseEnabled=true, cssSelectorsEnabled=true, javascriptEnabled=true, acceptSslCerts=true, handlesAlerts=true, browserName=firefox, webStorageEnabled=true, nativeEvents=false, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=33.0.2}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.createUnhandledAlertException(ErrorHandler.java:185)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:152)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:425)
+	at org.openqa.selenium.By$ByName.findElement(By.java:299)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:59)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:37)
+	at com.sun.proxy.$Proxy19.isSelected(Unknown Source)
+	at com.epam.pdrzh.pages.RegisterPage.checkErrorPresent(RegisterPage.java:60)
+	at com.epam.pdrzh.behavior.register.RegisterNegativeCases.userShouldSeeErrorMessage(RegisterNegativeCases.java:34)
+	at ✽.Then user should see error messages on register page: Modal dialog window(features.register\registerNewUserNegative.feature:7)
+
+Then user should see error messages on register page: Invalid login(| login l | password | password | +342343242342 | user@gmail.com | selected | Invalid login |)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at com.epam.pdrzh.behavior.register.RegisterNegativeCases.userShouldSeeErrorMessage(RegisterNegativeCases.java:34)
+	at ✽.Then user should see error messages on register page: Invalid login(features.register\registerNewUserNegative.feature:7)
+
+| login l | password | password | +342343242342 | user@gmail.com | selected | Invalid login |  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at com.epam.pdrzh.behavior.register.RegisterNegativeCases.userShouldSeeErrorMessage(RegisterNegativeCases.java:34)
+	at ✽.Then user should see error messages on register page: Invalid login(features.register\registerNewUserNegative.feature:7)
+
+Then user should see error messages on register page: Invalid login(| login | password | password | +342343242342 | user@gmail.com | selected | Invalid login |)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at com.epam.pdrzh.behavior.register.RegisterNegativeCases.userShouldSeeErrorMessage(RegisterNegativeCases.java:34)
+	at ✽.Then user should see error messages on register page: Invalid login(features.register\registerNewUserNegative.feature:7)
+
+| login | password | password | +342343242342 | user@gmail.com | selected | Invalid login |  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at com.epam.pdrzh.behavior.register.RegisterNegativeCases.userShouldSeeErrorMessage(RegisterNegativeCases.java:34)
+	at ✽.Then user should see error messages on register page: Invalid login(features.register\registerNewUserNegative.feature:7)
+

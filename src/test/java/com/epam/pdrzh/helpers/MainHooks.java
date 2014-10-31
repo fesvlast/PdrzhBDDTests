@@ -13,7 +13,7 @@ import org.openqa.selenium.TakesScreenshot;
  */
 public class MainHooks {
 
-    private static boolean flagScreenShoot =Boolean.getBoolean(ConfigurationManager.getInstance()
+    private static boolean flagScreenShoot =Boolean.parseBoolean(ConfigurationManager.getInstance()
             .getProperty(ConfigurationManager.CREATE_SCREENSHOT));
 
     @Before

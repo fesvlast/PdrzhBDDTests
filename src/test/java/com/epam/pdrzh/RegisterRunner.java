@@ -11,7 +11,7 @@ import org.junit.runner.RunWith;
 @Cucumber.Options(
         features = {"src/test/resources"},
         format = {"pretty", "html:target/reports/cucumber/html"},
-        tags = {"@PassToRegisterPage"}
-)
+        tags = {"@PassToRegisterPage, @TryToRegister"}
+)//@PassToRegisterPage,
 public class RegisterRunner {
 }

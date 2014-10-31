@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite failures="0" time="0.023" errors="0" skipped="0" tests="36" name="com.epam.pdrzh.suites.RunTest">
+<testsuite failures="4" time="14.464" errors="4" skipped="0" tests="76" name="com.epam.pdrzh.suites.RunTest">
   <properties>
     <property name="idea.version" value="13.1.5"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
@@ -11,13 +11,13 @@
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
     <property name="file.encoding.pkg" value="sun.io"/>
-    <property name="idea.launcher.port" value="7533"/>
+    <property name="idea.launcher.port" value="7532"/>
     <property name="user.script" value=""/>
     <property name="user.country" value="RU"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value="Service Pack 1"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="K:\testWorkQA\ideaProjects\PdrzhBDDTests"/>
+    <property name="user.dir" value="K:\testWorkQA\PdrzhBDDTests"/>
     <property name="java.runtime.version" value="1.7.0_45-b18"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
     <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.7.0_45\jre\lib\endorsed"/>
@@ -64,40 +64,228 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase time="0.008" classname="| fesvlast | wrongPassword | Bad credentials |" name="Given Passenger has forgotten username and password"/>
+  <testcase time="0.004" classname="| fesvlast | wrongPassword | Bad credentials |" name="Given Passenger has forgotten username and password"/>
   <testcase time="0" classname="| fesvlast | wrongPassword | Bad credentials |" name="When Passenger login with wrong username: fesvlast and password: wrongPassword"/>
   <testcase time="0" classname="| fesvlast | wrongPassword | Bad credentials |" name="Then Passenger should see error messages on login page: Bad credentials"/>
-  <testcase time="0.001" classname="| fesvlast | wrongPassword | Bad credentials |" name="| fesvlast | wrongPassword | Bad credentials |"/>
+  <testcase time="1.184" classname="| fesvlast | wrongPassword | Bad credentials |" name="| fesvlast | wrongPassword | Bad credentials |"/>
   <testcase time="0" classname="| pass | fesvlast | Bad credentials |" name="Given Passenger has forgotten username and password"/>
   <testcase time="0" classname="| pass | fesvlast | Bad credentials |" name="When Passenger login with wrong username: pass and password: fesvlast"/>
   <testcase time="0" classname="| pass | fesvlast | Bad credentials |" name="Then Passenger should see error messages on login page: Bad credentials"/>
-  <testcase time="0.001" classname="| pass | fesvlast | Bad credentials |" name="| pass | fesvlast | Bad credentials |"/>
+  <testcase time="1.173" classname="| pass | fesvlast | Bad credentials |" name="| pass | fesvlast | Bad credentials |"/>
   <testcase time="0" classname="|  | wrongPassword | Login is required |" name="Given Passenger has forgotten username and password"/>
   <testcase time="0" classname="|  | wrongPassword | Login is required |" name="When Passenger login with wrong username:  and password: wrongPassword"/>
   <testcase time="0" classname="|  | wrongPassword | Login is required |" name="Then Passenger should see error messages on login page: Login is required"/>
-  <testcase time="0" classname="|  | wrongPassword | Login is required |" name="|  | wrongPassword | Login is required |"/>
-  <testcase time="0" classname="| w | fesvlast | Login is too short, enter at least 3 letters |" name="Given Passenger has forgotten username and password"/>
+  <testcase time="1.734" classname="|  | wrongPassword | Login is required |" name="|  | wrongPassword | Login is required |"/>
+  <testcase time="0.001" classname="| w | fesvlast | Login is too short, enter at least 3 letters |" name="Given Passenger has forgotten username and password"/>
   <testcase time="0" classname="| w | fesvlast | Login is too short, enter at least 3 letters |" name="When Passenger login with wrong username: w and password: fesvlast"/>
   <testcase time="0" classname="| w | fesvlast | Login is too short, enter at least 3 letters |" name="Then Passenger should see error messages on login page: Login is too short, enter at least 3 letters"/>
-  <testcase time="0" classname="| w | fesvlast | Login is too short, enter at least 3 letters |" name="| w | fesvlast | Login is too short, enter at least 3 letters |"/>
+  <testcase time="1.59" classname="| w | fesvlast | Login is too short, enter at least 3 letters |" name="| w | fesvlast | Login is too short, enter at least 3 letters |"/>
   <testcase time="0" classname="| wrongLogin |  | Password is required |" name="Given Passenger has forgotten username and password"/>
   <testcase time="0" classname="| wrongLogin |  | Password is required |" name="When Passenger login with wrong username: wrongLogin and password: "/>
   <testcase time="0" classname="| wrongLogin |  | Password is required |" name="Then Passenger should see error messages on login page: Password is required"/>
-  <testcase time="0.001" classname="| wrongLogin |  | Password is required |" name="| wrongLogin |  | Password is required |"/>
-  <testcase time="0" classname="| wrongLogin | 4 | Please enter at least 3 symbols |" name="Given Passenger has forgotten username and password"/>
+  <testcase time="1.541" classname="| wrongLogin |  | Password is required |" name="| wrongLogin |  | Password is required |"/>
+  <testcase time="0.001" classname="| wrongLogin | 4 | Please enter at least 3 symbols |" name="Given Passenger has forgotten username and password"/>
   <testcase time="0" classname="| wrongLogin | 4 | Please enter at least 3 symbols |" name="When Passenger login with wrong username: wrongLogin and password: 4"/>
   <testcase time="0" classname="| wrongLogin | 4 | Please enter at least 3 symbols |" name="Then Passenger should see error messages on login page: Please enter at least 3 symbols"/>
-  <testcase time="0.011" classname="| wrongLogin | 4 | Please enter at least 3 symbols |" name="| wrongLogin | 4 | Please enter at least 3 symbols |"/>
+  <testcase time="1.178" classname="| wrongLogin | 4 | Please enter at least 3 symbols |" name="| wrongLogin | 4 | Please enter at least 3 symbols |"/>
   <testcase time="0" classname="Scenario: As a passenger I want be able to login to the system" name="Given Passenger wants to login"/>
-  <testcase time="0" classname="Scenario: As a passenger I want be able to login to the system" name="When Passenger login to the system with username &quot;fesvlast&quot; and password &quot;fesvlast&quot;"/>
+  <testcase time="0.001" classname="Scenario: As a passenger I want be able to login to the system" name="When Passenger login to the system with username &quot;fesvlast&quot; and password &quot;fesvlast&quot;"/>
   <testcase time="0" classname="Scenario: As a passenger I want be able to login to the system" name="Then Passenger should see home page and his login &quot;fesvlast&quot;"/>
-  <testcase time="0" classname="Scenario: As a passenger I want be able to login to the system" name="Scenario: As a passenger I want be able to login to the system"/>
+  <testcase time="1.336" classname="Scenario: As a passenger I want be able to login to the system" name="Scenario: As a passenger I want be able to login to the system"/>
   <testcase time="0" classname="Scenario: Passenger wants to logout from his account." name="Given passenger is on his home page"/>
   <testcase time="0" classname="Scenario: Passenger wants to logout from his account." name="When he press button logout"/>
   <testcase time="0" classname="Scenario: Passenger wants to logout from his account." name="Then passenger should see login page"/>
-  <testcase time="0.001" classname="Scenario: Passenger wants to logout from his account." name="Scenario: Passenger wants to logout from his account."/>
+  <testcase time="1.375" classname="Scenario: Passenger wants to logout from his account." name="Scenario: Passenger wants to logout from his account."/>
+  <testcase time="0" classname="|  | password | password | +342343242342 | user@gmail.com | selected | Login is required |" name="Given user stay on the register page"/>
+  <testcase time="0" classname="|  | password | password | +342343242342 | user@gmail.com | selected | Login is required |" name="When user input wrong data:  and password, password, +342343242342, user@gmail.com, selected"/>
+  <testcase time="0" classname="|  | password | password | +342343242342 | user@gmail.com | selected | Login is required |" name="Then user should see error messages on register page: Login is required"/>
+  <testcase time="0.303" classname="|  | password | password | +342343242342 | user@gmail.com | selected | Login is required |" name="|  | password | password | +342343242342 | user@gmail.com | selected | Login is required |"/>
+  <testcase time="0" classname="| login |  | password | +342343242342 | user@gmail.com | selected | Password is required |" name="Given user stay on the register page"/>
+  <testcase time="0" classname="| login |  | password | +342343242342 | user@gmail.com | selected | Password is required |" name="When user input wrong data: login and , password, +342343242342, user@gmail.com, selected"/>
+  <testcase time="0" classname="| login |  | password | +342343242342 | user@gmail.com | selected | Password is required |" name="Then user should see error messages on register page: Password is required"/>
+  <testcase time="0.365" classname="| login |  | password | +342343242342 | user@gmail.com | selected | Password is required |" name="| login |  | password | +342343242342 | user@gmail.com | selected | Password is required |"/>
+  <testcase time="0" classname="| login | password |  | +342343242342 | user@gmail.com | selected | Password and confirmation are different |" name="Given user stay on the register page"/>
+  <testcase time="0" classname="| login | password |  | +342343242342 | user@gmail.com | selected | Password and confirmation are different |" name="When user input wrong data: login and password, , +342343242342, user@gmail.com, selected"/>
+  <testcase time="0" classname="| login | password |  | +342343242342 | user@gmail.com | selected | Password and confirmation are different |" name="Then user should see error messages on register page: Password and confirmation are different"/>
+  <testcase time="0.296" classname="| login | password |  | +342343242342 | user@gmail.com | selected | Password and confirmation are different |" name="| login | password |  | +342343242342 | user@gmail.com | selected | Password and confirmation are different |"/>
+  <testcase time="0" classname="| login | password | password |  | user@gmail.com | selected | Phone is required |" name="Given user stay on the register page"/>
+  <testcase time="0" classname="| login | password | password |  | user@gmail.com | selected | Phone is required |" name="When user input wrong data: login and password, password, , user@gmail.com, selected"/>
+  <testcase time="0" classname="| login | password | password |  | user@gmail.com | selected | Phone is required |" name="Then user should see error messages on register page: Phone is required"/>
+  <testcase time="0.288" classname="| login | password | password |  | user@gmail.com | selected | Phone is required |" name="| login | password | password |  | user@gmail.com | selected | Phone is required |"/>
+  <testcase time="0" classname="| login | password | password | +342343242342 |  | selected | Email is required |" name="Given user stay on the register page"/>
+  <testcase time="0" classname="| login | password | password | +342343242342 |  | selected | Email is required |" name="When user input wrong data: login and password, password, +342343242342, , selected"/>
+  <testcase time="0.009" classname="| login | password | password | +342343242342 |  | selected | Email is required |" name="Then user should see error messages on register page: Email is required">
+    <error message="No alert is present (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2.14 seconds
+Build info: version: &apos;2.43.1&apos;, revision: &apos;5163bceef1bc36d43f3dc0b83c88998168a363a0&apos;, time: &apos;2014-09-10 09:43:55&apos;
+System info: host: &apos;Tim-ПК&apos;, ip: &apos;10.6.25.164&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_45&apos;
+Session ID: b73cdcc1-3434-410f-891d-545646803cc3
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, databaseEnabled=true, cssSelectorsEnabled=true, javascriptEnabled=true, acceptSslCerts=true, handlesAlerts=true, browserName=firefox, webStorageEnabled=true, nativeEvents=false, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=33.0.2}]" type="org.openqa.selenium.NoAlertPresentException">org.openqa.selenium.NoAlertPresentException: No alert is present (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2.14 seconds
+Build info: version: &apos;2.43.1&apos;, revision: &apos;5163bceef1bc36d43f3dc0b83c88998168a363a0&apos;, time: &apos;2014-09-10 09:43:55&apos;
+System info: host: &apos;Tim-ПК&apos;, ip: &apos;10.6.25.164&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_45&apos;
+Session ID: b73cdcc1-3434-410f-891d-545646803cc3
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, databaseEnabled=true, cssSelectorsEnabled=true, javascriptEnabled=true, acceptSslCerts=true, handlesAlerts=true, browserName=firefox, webStorageEnabled=true, nativeEvents=false, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=33.0.2}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:614)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.alert(RemoteWebDriver.java:899)
+	at com.epam.pdrzh.pages.RegisterPage.checkErrorPresent(RegisterPage.java:64)
+	at com.epam.pdrzh.behavior.register.RegisterNegativeCases.userShouldSeeErrorMessage(RegisterNegativeCases.java:34)
+	at ✽.Then user should see error messages on register page: Email is required(features.register\registerNewUserNegative.feature:7)
+</error>
+  </testcase>
+  <testcase time="0.011" classname="| login | password | password | +342343242342 |  | selected | Email is required |" name="| login | password | password | +342343242342 |  | selected | Email is required |">
+    <error message="No alert is present (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2.14 seconds
+Build info: version: &apos;2.43.1&apos;, revision: &apos;5163bceef1bc36d43f3dc0b83c88998168a363a0&apos;, time: &apos;2014-09-10 09:43:55&apos;
+System info: host: &apos;Tim-ПК&apos;, ip: &apos;10.6.25.164&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_45&apos;
+Session ID: b73cdcc1-3434-410f-891d-545646803cc3
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, databaseEnabled=true, cssSelectorsEnabled=true, javascriptEnabled=true, acceptSslCerts=true, handlesAlerts=true, browserName=firefox, webStorageEnabled=true, nativeEvents=false, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=33.0.2}]" type="org.openqa.selenium.NoAlertPresentException">org.openqa.selenium.NoAlertPresentException: No alert is present (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2.14 seconds
+Build info: version: &apos;2.43.1&apos;, revision: &apos;5163bceef1bc36d43f3dc0b83c88998168a363a0&apos;, time: &apos;2014-09-10 09:43:55&apos;
+System info: host: &apos;Tim-ПК&apos;, ip: &apos;10.6.25.164&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_45&apos;
+Session ID: b73cdcc1-3434-410f-891d-545646803cc3
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, databaseEnabled=true, cssSelectorsEnabled=true, javascriptEnabled=true, acceptSslCerts=true, handlesAlerts=true, browserName=firefox, webStorageEnabled=true, nativeEvents=false, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=33.0.2}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:614)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.alert(RemoteWebDriver.java:899)
+	at com.epam.pdrzh.pages.RegisterPage.checkErrorPresent(RegisterPage.java:64)
+	at com.epam.pdrzh.behavior.register.RegisterNegativeCases.userShouldSeeErrorMessage(RegisterNegativeCases.java:34)
+	at ✽.Then user should see error messages on register page: Email is required(features.register\registerNewUserNegative.feature:7)
+</error>
+  </testcase>
+  <testcase time="0" classname="| login | password | password | +342343242342 | user@gmail.com | not_selected | Modal dialog window |" name="Given user stay on the register page"/>
+  <testcase time="0" classname="| login | password | password | +342343242342 | user@gmail.com | not_selected | Modal dialog window |" name="When user input wrong data: login and password, password, +342343242342, user@gmail.com, not_selected"/>
+  <testcase time="0.002" classname="| login | password | password | +342343242342 | user@gmail.com | not_selected | Modal dialog window |" name="Then user should see error messages on register page: Modal dialog window">
+    <error message="Modal dialog present: Please confirm license agreement
+Build info: version: &apos;2.43.1&apos;, revision: &apos;5163bceef1bc36d43f3dc0b83c88998168a363a0&apos;, time: &apos;2014-09-10 09:43:55&apos;
+System info: host: &apos;Tim-ПК&apos;, ip: &apos;10.6.25.164&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_45&apos;
+Session ID: b73cdcc1-3434-410f-891d-545646803cc3
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, databaseEnabled=true, cssSelectorsEnabled=true, javascriptEnabled=true, acceptSslCerts=true, handlesAlerts=true, browserName=firefox, webStorageEnabled=true, nativeEvents=false, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=33.0.2}]" type="org.openqa.selenium.UnhandledAlertException">org.openqa.selenium.UnhandledAlertException: Modal dialog present: Please confirm license agreement
+Build info: version: &apos;2.43.1&apos;, revision: &apos;5163bceef1bc36d43f3dc0b83c88998168a363a0&apos;, time: &apos;2014-09-10 09:43:55&apos;
+System info: host: &apos;Tim-ПК&apos;, ip: &apos;10.6.25.164&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_45&apos;
+Session ID: b73cdcc1-3434-410f-891d-545646803cc3
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, databaseEnabled=true, cssSelectorsEnabled=true, javascriptEnabled=true, acceptSslCerts=true, handlesAlerts=true, browserName=firefox, webStorageEnabled=true, nativeEvents=false, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=33.0.2}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.createUnhandledAlertException(ErrorHandler.java:185)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:152)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:425)
+	at org.openqa.selenium.By$ByName.findElement(By.java:299)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:59)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:37)
+	at com.sun.proxy.$Proxy19.isSelected(Unknown Source)
+	at com.epam.pdrzh.pages.RegisterPage.checkErrorPresent(RegisterPage.java:60)
+	at com.epam.pdrzh.behavior.register.RegisterNegativeCases.userShouldSeeErrorMessage(RegisterNegativeCases.java:34)
+	at ✽.Then user should see error messages on register page: Modal dialog window(features.register\registerNewUserNegative.feature:7)
+</error>
+  </testcase>
+  <testcase time="0.003" classname="| login | password | password | +342343242342 | user@gmail.com | not_selected | Modal dialog window |" name="| login | password | password | +342343242342 | user@gmail.com | not_selected | Modal dialog window |">
+    <error message="Modal dialog present: Please confirm license agreement
+Build info: version: &apos;2.43.1&apos;, revision: &apos;5163bceef1bc36d43f3dc0b83c88998168a363a0&apos;, time: &apos;2014-09-10 09:43:55&apos;
+System info: host: &apos;Tim-ПК&apos;, ip: &apos;10.6.25.164&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_45&apos;
+Session ID: b73cdcc1-3434-410f-891d-545646803cc3
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, databaseEnabled=true, cssSelectorsEnabled=true, javascriptEnabled=true, acceptSslCerts=true, handlesAlerts=true, browserName=firefox, webStorageEnabled=true, nativeEvents=false, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=33.0.2}]" type="org.openqa.selenium.UnhandledAlertException">org.openqa.selenium.UnhandledAlertException: Modal dialog present: Please confirm license agreement
+Build info: version: &apos;2.43.1&apos;, revision: &apos;5163bceef1bc36d43f3dc0b83c88998168a363a0&apos;, time: &apos;2014-09-10 09:43:55&apos;
+System info: host: &apos;Tim-ПК&apos;, ip: &apos;10.6.25.164&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_45&apos;
+Session ID: b73cdcc1-3434-410f-891d-545646803cc3
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, databaseEnabled=true, cssSelectorsEnabled=true, javascriptEnabled=true, acceptSslCerts=true, handlesAlerts=true, browserName=firefox, webStorageEnabled=true, nativeEvents=false, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=33.0.2}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.createUnhandledAlertException(ErrorHandler.java:185)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:152)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:425)
+	at org.openqa.selenium.By$ByName.findElement(By.java:299)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:59)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:37)
+	at com.sun.proxy.$Proxy19.isSelected(Unknown Source)
+	at com.epam.pdrzh.pages.RegisterPage.checkErrorPresent(RegisterPage.java:60)
+	at com.epam.pdrzh.behavior.register.RegisterNegativeCases.userShouldSeeErrorMessage(RegisterNegativeCases.java:34)
+	at ✽.Then user should see error messages on register page: Modal dialog window(features.register\registerNewUserNegative.feature:7)
+</error>
+  </testcase>
+  <testcase time="0" classname="| login | 12 | 12 | +342343242342 | user@gmail.com | selected | Please enter at least 3 symbols |" name="Given user stay on the register page"/>
+  <testcase time="0" classname="| login | 12 | 12 | +342343242342 | user@gmail.com | selected | Please enter at least 3 symbols |" name="When user input wrong data: login and 12, 12, +342343242342, user@gmail.com, selected"/>
+  <testcase time="0" classname="| login | 12 | 12 | +342343242342 | user@gmail.com | selected | Please enter at least 3 symbols |" name="Then user should see error messages on register page: Please enter at least 3 symbols"/>
+  <testcase time="0.295" classname="| login | 12 | 12 | +342343242342 | user@gmail.com | selected | Please enter at least 3 symbols |" name="| login | 12 | 12 | +342343242342 | user@gmail.com | selected | Please enter at least 3 symbols |"/>
+  <testcase time="0" classname="| login | 12 | 12 | +342343242342 | user@gmail.com | selected | Please enter at least 3 symbols |" name="Given user stay on the register page"/>
+  <testcase time="0" classname="| login | 12 | 12 | +342343242342 | user@gmail.com | selected | Please enter at least 3 symbols |" name="When user input wrong data: login and 12, 12, +342343242342, user@gmail.com, selected"/>
+  <testcase time="0" classname="| login | 12 | 12 | +342343242342 | user@gmail.com | selected | Please enter at least 3 symbols |" name="Then user should see error messages on register page: Please enter at least 3 symbols"/>
+  <testcase time="0.289" classname="| login | 12 | 12 | +342343242342 | user@gmail.com | selected | Please enter at least 3 symbols |" name="| login | 12 | 12 | +342343242342 | user@gmail.com | selected | Please enter at least 3 symbols |"/>
+  <testcase time="0" classname="| login l | password | password | +342343242342 | user@gmail.com | selected | Invalid login |" name="Given user stay on the register page"/>
+  <testcase time="0" classname="| login l | password | password | +342343242342 | user@gmail.com | selected | Invalid login |" name="When user input wrong data: login l and password, password, +342343242342, user@gmail.com, selected"/>
+  <testcase time="0" classname="| login l | password | password | +342343242342 | user@gmail.com | selected | Invalid login |" name="Then user should see error messages on register page: Invalid login">
+    <failure type="java.lang.AssertionError">java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at com.epam.pdrzh.behavior.register.RegisterNegativeCases.userShouldSeeErrorMessage(RegisterNegativeCases.java:34)
+	at ✽.Then user should see error messages on register page: Invalid login(features.register\registerNewUserNegative.feature:7)
+</failure>
+  </testcase>
+  <testcase time="0" classname="| login l | password | password | +342343242342 | user@gmail.com | selected | Invalid login |" name="| login l | password | password | +342343242342 | user@gmail.com | selected | Invalid login |">
+    <failure type="java.lang.AssertionError">java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at com.epam.pdrzh.behavior.register.RegisterNegativeCases.userShouldSeeErrorMessage(RegisterNegativeCases.java:34)
+	at ✽.Then user should see error messages on register page: Invalid login(features.register\registerNewUserNegative.feature:7)
+</failure>
+  </testcase>
+  <testcase time="0" classname="| login | password | password | +342343242342 | user@gmail.com | selected | Invalid login |" name="Given user stay on the register page"/>
+  <testcase time="0" classname="| login | password | password | +342343242342 | user@gmail.com | selected | Invalid login |" name="When user input wrong data: login and password, password, +342343242342, user@gmail.com, selected"/>
+  <testcase time="0" classname="| login | password | password | +342343242342 | user@gmail.com | selected | Invalid login |" name="Then user should see error messages on register page: Invalid login">
+    <failure type="java.lang.AssertionError">java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at com.epam.pdrzh.behavior.register.RegisterNegativeCases.userShouldSeeErrorMessage(RegisterNegativeCases.java:34)
+	at ✽.Then user should see error messages on register page: Invalid login(features.register\registerNewUserNegative.feature:7)
+</failure>
+  </testcase>
+  <testcase time="0.001" classname="| login | password | password | +342343242342 | user@gmail.com | selected | Invalid login |" name="| login | password | password | +342343242342 | user@gmail.com | selected | Invalid login |">
+    <failure type="java.lang.AssertionError">java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at com.epam.pdrzh.behavior.register.RegisterNegativeCases.userShouldSeeErrorMessage(RegisterNegativeCases.java:34)
+	at ✽.Then user should see error messages on register page: Invalid login(features.register\registerNewUserNegative.feature:7)
+</failure>
+  </testcase>
   <testcase time="0" classname="Scenario: User wants to be on the register page." name="Given As a user I stay on the login page"/>
   <testcase time="0" classname="Scenario: User wants to be on the register page." name="When User click on the link &quot;Register a new user&quot;"/>
   <testcase time="0" classname="Scenario: User wants to be on the register page." name="Then He gets a register page"/>
-  <testcase time="0" classname="Scenario: User wants to be on the register page." name="Scenario: User wants to be on the register page."/>
+  <testcase time="1.484" classname="Scenario: User wants to be on the register page." name="Scenario: User wants to be on the register page."/>
 </testsuite>
